@@ -26,7 +26,7 @@
     "php-64bit": ">=7.0 || ^8.0",
     "pleonasm/merkle-tree": "1.0.0",
     "composer/semver": "^1.4.0|^3.2.0",
-    "alyssa-mckeown/murmurhash-php": "v2.0.0",
+    "alyssa-mckeown/murmurhash-php": "*",
     "paragonie/ecc": "2.3.*",
     "bitwasp/buffertools": "^0.5.0",
     "bitwasp/bech32": "^0.0.1"
@@ -42,5 +42,10 @@
     "nbobtc/bitcoind-php": "v2.0.2",
     "bitwasp/secp256k1-php": "^v0.2.0",
     "bitwasp/bitcoinconsensus": "v3.0.0"
-  }
+  },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alyssa-mckeown/murmurhash-php"
+        }
 }
