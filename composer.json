@@ -1,5 +1,5 @@
 {
-  "name": "libbitwasp-php/bitcoin",
+  "name": "alyssa-mckeown/libbitwasp-php",
   "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
   "homepage": "https://github.com/bit-wasp/bitcoin-php",
